@@ -14,7 +14,8 @@ public class HouseBuilderDirector
     public void Build()
     {
         _builder
-            .BuildeRoof()
-            .BuildeWall();
+            .BuildRoof()
+            .BuildWall()
+            .BuildSwimmingPool();
     }
 }

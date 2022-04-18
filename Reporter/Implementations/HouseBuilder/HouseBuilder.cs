@@ -9,24 +9,32 @@ public class HouseBuilder : IHouseBuilder
     private House _house;
     private readonly Roof _roof;
     private readonly Wall _wall;
+    private readonly SwimmingPool _swimmingPool;
 
-    public HouseBuilder(Roof roof, Wall wall)
+    public HouseBuilder(Roof roof, Wall wall, SwimmingPool swimmingPool)
     {
         _roof = roof;
         _wall = wall;
+        _swimmingPool = swimmingPool;
         _house = new House();
     }
     
-    public IHouseBuilder BuildeRoof()
+    public IHouseBuilder BuildRoof()
     {
         _house.Roof = _roof;
         return this;
     }
 
-    public IHouseBuilder BuildeWall()
+    public IHouseBuilder BuildWall()
     {
         _house.Wall = _wall;
 
+        return this;
+    }
+
+    public IHouseBuilder BuildSwimmingPool()
+    {
+        _house.SwimmingPool = _swimmingPool;
         return this;
     }
 
