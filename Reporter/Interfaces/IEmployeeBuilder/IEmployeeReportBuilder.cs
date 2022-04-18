@@ -1,6 +1,7 @@
 ﻿using Reporter.Models;
+using Reporter.Models.Employees;
 
-namespace Reporter.Interfaces;
+namespace Reporter.Interfaces.IEmployeeBuilder;
 
 public interface IEmployeeReportBuilder
 {

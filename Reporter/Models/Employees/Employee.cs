@@ -1,4 +1,4 @@
-﻿namespace Reporter.Models;
+﻿namespace Reporter.Models.Employees;
 
 public class Employee
 {

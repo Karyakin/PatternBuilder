@@ -1,6 +1,6 @@
-﻿using Reporter.Interfaces;
+﻿using Reporter.Interfaces.IEmployeeBuilder;
 
-namespace Reporter.Implementations;
+namespace Reporter.Implementations.EmployeeBuilder;
 
 public class FluentEmployeeReportDirector
 {

@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Reporter.Models;
+namespace Reporter.Models.Employees;
 
 public class EmployeeReport // продукт
 {
